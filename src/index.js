@@ -7,6 +7,7 @@ import Router from "./router";
 import Styles from "./globalStyles";
 import i18n from "./translation";
 import * as serviceWorker from "./serviceWorker";
+import reportWebVitals from './reportWebVitals';
 
 const App = () => (
   <BrowserRouter>
@@ -22,3 +23,4 @@ ReactDOM.render(<App />, document.getElementById("root"));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+reportWebVitals();
