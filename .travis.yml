@@ -5,12 +5,6 @@ node_js: '12'
 services:
   - docker
 
-before_install:
-  - docker build -t yummeal/landing-page -f Dockerfile.dev .
-
-script:
-  - docker run -e CI=true yummeal/landing-page npm run test
-
 before_deploy:
   - npm install
   - CI=false npm run build
