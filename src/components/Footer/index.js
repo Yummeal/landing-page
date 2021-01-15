@@ -55,11 +55,13 @@ const Footer = () => {
             </Row> */}
             <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
-                <S.Empty />
+                {/* <S.Empty /> */}
                 <S.Language>{t("ADDRESS")}</S.Language>
-                <S.Para>대표 류지승</S.Para>
-                <S.Para>대전 유성구</S.Para>
-                <S.Para>어딘가</S.Para>
+                <S.Para>얌밀(Yum_meal)</S.Para>
+                <S.Para style={{paddingTop:"20px"}}>대표: 류지승</S.Para>
+                <S.Para>사업자 등록번호 : 669-03-01890</S.Para>
+                <S.Para>주소 : 대전광역시 서구 계룡로 366, 6층 687호</S.Para>
+                <S.Para>Mail : yummeal@yummeal.ai</S.Para>
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{t("Company")}</S.Title>
