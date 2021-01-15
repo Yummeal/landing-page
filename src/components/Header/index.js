@@ -26,7 +26,7 @@ const Header = () => {
   const MenuItem = () => {
     return (
       <Fragment>
-        <S.CustomNavLinkSmall>
+        {/* <S.CustomNavLinkSmall>
           <Link to="/">{t("About")}</Link>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall>
@@ -34,7 +34,7 @@ const Header = () => {
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall>
           <Link to="/">{t("Product")}</Link>
-        </S.CustomNavLinkSmall>
+        </S.CustomNavLinkSmall> */}
         <S.CustomNavLinkSmall style={{ width: "180px" }}>
           <Link to="/">
             <Button>{t("Contact")}</Button>

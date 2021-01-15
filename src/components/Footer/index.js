@@ -68,7 +68,7 @@ const Footer = () => {
                 <S.Large left="true" to="/">
                   {t("About")}
                 </S.Large>
-                <S.Large left="true" to="/">
+                {/* <S.Large left="true" to="/">
                   {t("Blog")}
                 </S.Large>
                 <S.Large left="true" to="/">
@@ -76,7 +76,7 @@ const Footer = () => {
                 </S.Large>
                 <S.Large left="true" to="/">
                   {t("Careers & Culture")}
-                </S.Large>
+                </S.Large> */}
               </Col>
               <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Select>
@@ -143,7 +143,7 @@ const Footer = () => {
             <Row type="flex" justify="space-between">
               <Col lg={12} md={12} sm={12} xs={24}>
                 <S.CSite>
-                  All Rights Reserved - Landy © {new Date().getFullYear()}
+                  All Rights Reserved - Yum_meal © {new Date().getFullYear()}
                 </S.CSite>
               </Col>
             </Row>
