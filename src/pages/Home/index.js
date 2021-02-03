@@ -8,10 +8,12 @@ import ScrollToTop from "../../common/ScrollToTop";
 
 import Introduction from "../../content/introduction.json";
 import FirstBlock from "../../content/firstBlock.json";
-import SecondBlock from "../../content/secondBlock.json";
+// import SecondBlock from "../../content/secondBlock.json";
 import ThirdBlock from "../../content/thirdBlock.json";
 import FourthBlock from "../../content/fourthBlock.json";
 import ContactBlock from "../../content/contactBlock.json";
+import six from '../../content/six.json';
+import seven from "../../content/seven.json"
 
 const Home = () => {
   return (
@@ -25,24 +27,36 @@ const Home = () => {
         button={Introduction.button}
         icon="yummeal_top.svg"
       />
-      <MiddleBlock
-        title={FirstBlock.title}
-        content={FirstBlock.text}
-        button={FirstBlock.button}
+      <ContentBlock
+        type="left"
+        title={FourthBlock.title}
+        content={FourthBlock.text}
+        // icon="yummeal_bottom.svg"
       />
       <ContentBlock
         type="right"
         title={ThirdBlock.title}
         content={ThirdBlock.text}
-        icon="yummeal_mid.svg"
+        // icon="mid.svg"
       />
-
       <ContentBlock
         type="left"
-        title={FourthBlock.title}
-        content={FourthBlock.text}
-        icon="yummeal_bottom.svg"
+        title={six.title}
+        content={six.text}
+        // icon="yummeal_bottom.svg"
       />
+      <ContentBlock
+        type="right"
+        title={seven.title}
+        content={seven.text}
+        // icon="yummeal_mid.svg"
+      />
+      <MiddleBlock
+        title={FirstBlock.title}
+        content={FirstBlock.text}
+        button={FirstBlock.button}
+      />
+
       <ContactFrom title={ContactBlock.title} content={ContactBlock.text} />
     </Container>
   );
