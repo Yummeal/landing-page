@@ -24,7 +24,10 @@ const RightBlock = ({ last, first, title, content, button, icon }) => {
                   typeof button === "object" &&
                   button.map((item, id) => {
                     return (
-                      <Button key={id} color={item.color} width="true">
+                      <Button onClick={(e) => {
+                        e.preventDefault();
+                        window.location.href='https://pf.kakao.com/_ffgFK';
+                        }}  key={id} color={item.color} width="true">
                         {t(item.title)}
                       </Button>
                     );

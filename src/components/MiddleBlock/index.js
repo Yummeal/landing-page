@@ -19,7 +19,10 @@ const MiddleBlock = ({ last, id, title, content, button }) => {
               <S.Title>{t(title)}</S.Title>
               <S.Content last={last}>{t(content)}</S.Content>
               {button ? (
-                <Button name="submit" type="submit">
+                <Button onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href='https://pf.kakao.com/_ffgFK';
+                  }} name="submit" type="submit">
                   {t(button)}
                 </Button>
               ) : (

@@ -37,7 +37,10 @@ const Header = () => {
         </S.CustomNavLinkSmall> */}
         <S.CustomNavLinkSmall style={{ width: "180px" }}>
           <Link to="/">
-            <Button>{t("Contact")}</Button>
+            <Button onClick={(e) => {
+    e.preventDefault();
+    window.location.href='https://pf.kakao.com/_ffgFK';
+    }} >{t("Contact")}</Button>
           </Link>
         </S.CustomNavLinkSmall>
       </Fragment>
