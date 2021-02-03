@@ -23,7 +23,7 @@ const Home = () => {
         title={Introduction.title}
         content={Introduction.text}
         button={Introduction.button}
-        icon="developer.svg"
+        icon="yummeal_top.svg"
       />
       <MiddleBlock
         title={FirstBlock.title}
@@ -31,24 +31,17 @@ const Home = () => {
         button={FirstBlock.button}
       />
       <ContentBlock
-        type="left"
-        title={SecondBlock.title}
-        content={SecondBlock.text}
-        section={SecondBlock.section}
-        icon="graphs.svg"
-      />
-      <ContentBlock
         type="right"
         title={ThirdBlock.title}
         content={ThirdBlock.text}
-        icon="product-launch.svg"
+        icon="yummeal_mid.svg"
       />
 
       <ContentBlock
         type="left"
         title={FourthBlock.title}
         content={FourthBlock.text}
-        icon="waving.svg"
+        icon="yummeal_bottom.svg"
       />
       <ContactFrom title={ContactBlock.title} content={ContactBlock.text} />
     </Container>
