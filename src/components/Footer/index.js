@@ -58,7 +58,7 @@ const Footer = () => {
                 {/* <S.Empty /> */}
                 <S.Language>{t("ADDRESS")}</S.Language>
                 <S.Para>얌밀(Yum_meal)</S.Para>
-                <S.Para style={{paddingTop:"20px"}}>대표: 류지승</S.Para>
+                <S.Para style={{paddingTop:"20px"}}>대표 : 류지승</S.Para>
                 <S.Para>사업자 등록번호 : 669-03-01890</S.Para>
                 <S.Para>주소 : 대전광역시 서구 계룡로 366, 6층 687호</S.Para>
                 <S.Para>Mail : yummeal@yummeal.ai</S.Para>

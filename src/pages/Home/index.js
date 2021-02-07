@@ -31,25 +31,25 @@ const Home = () => {
         type="left"
         title={FourthBlock.title}
         content={FourthBlock.text}
-        // icon="yummeal_bottom.svg"
+        icon="yummeal_bottom.svg"
       />
       <ContentBlock
         type="right"
         title={ThirdBlock.title}
         content={ThirdBlock.text}
-        // icon="mid.svg"
+        icon="yummeal_top.svg"
       />
       <ContentBlock
         type="left"
         title={six.title}
         content={six.text}
-        // icon="yummeal_bottom.svg"
+        icon="yummeal_bottom.svg"
       />
       <ContentBlock
         type="right"
         title={seven.title}
         content={seven.text}
-        // icon="yummeal_mid.svg"
+        icon="yummeal_mid.svg"
       />
       <MiddleBlock
         title={FirstBlock.title}
