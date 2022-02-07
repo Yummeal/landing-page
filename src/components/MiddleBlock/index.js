@@ -21,7 +21,7 @@ const MiddleBlock = ({ last, id, title, content, button }) => {
               {button ? (
                 <Button onClick={(e) => {
                   e.preventDefault();
-                  window.location.href='https://pf.kakao.com/_ffgFK';
+                  window.location.href='https://play.google.com/store/apps/details?id=com.winnerho.yummeal';
                   }} name="submit" type="submit">
                   {t(button)}
                 </Button>
